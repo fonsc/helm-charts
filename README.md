@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/bjw-s/bjw-s/blob/main/_assets/images/logo.jpg?raw=true" align="left" width="144px" height="144px"/>
+<img src="https://github.com/fonsc/fonsc/blob/main/_assets/images/logo.jpg?raw=true" align="left" width="144px" height="144px"/>
 
 <h1> helm-charts </h1>
 
@@ -14,8 +14,7 @@
 
 <br><br>
 
-👋 Welcome to my Helm Charts repository. This repo contains Helm charts that I have developed to run applications in my [home Kubernetes cluster](https://github.com/bjw-s/home-ops/).
-This repo is **not** intended to be a replacement for any of the large collections of Helm charts that are out there.
+👋 Welcome to my Helm Charts repository. This repo contains Helm charts that I use to run applications in my home Kubernetes cluster. It is a fork from the awesome [bjw-s/helm-charts](https://github.com/bjw-s/helm-charts/) repository.
 
 ---
 
@@ -26,22 +25,24 @@ This repo is **not** intended to be a replacement for any of the large collectio
 The Helm repository can be installed as follows:
 
 ```console
-helm repo add bjw-s https://bjw-s.github.io/helm-charts
+
+helm repo add fonsc https://fonsc.github.io/helm-charts
 ```
 
-You can then run `helm search repo bjw-s` to search the charts.
+
+You can then run `helm search repo fonsc` to search the charts.
 
 ---
 
 ### 📖 Docs
 
-The documentation that goes along with this repo can be found [over here](https://bjw-s.github.io/helm-charts/).
+The documentation that goes along with this repo can be found [over here](https://fonsc.github.io/helm-charts/).
 
 ---
 
 ### 🔎 Support
 
-If you like this project, please consider supporting my work through my [GitHub sponsorship page](https://github.com/sponsors/bjw-s?frequency=one-time).
+If you like this project, please consider supporting my work through my [GitHub sponsorship page](https://github.com/sponsors/fonsc?frequency=one-time).
 
 ---
 
@@ -64,4 +65,4 @@ repositories containing any application you might wish to run.
 
 ### 🔏 License
 
-See [LICENSE](https://github.com/bjw-s/helm-charts/blob/main/LICENSE)
+See [LICENSE](https://github.com/fonsc/helm-charts/blob/main/LICENSE)

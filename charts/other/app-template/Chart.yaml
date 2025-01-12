@@ -5,11 +5,11 @@ name: app-template
 version: 3.6.1
 kubeVersion: ">=1.22.0-0"
 maintainers:
-  - name: bjw-s
-    email: me@bjw-s.dev
+  - name: fonsc
+    email: me@fonsc.dev
 dependencies:
   - name: common
-    repository: https://bjw-s.github.io/helm-charts
+    repository: https://fonsc.github.io/helm-charts
     version: 3.6.1
 annotations:
   artifacthub.io/changes: |-
@@ -18,6 +18,6 @@ annotations:
         Updated library version to 3.6.1.
       links:
         - name: Upgrade instructions from v2.x
-          url: https://bjw-s.github.io/helm-charts/docs/app-template/#from-2xx-to-30x
+          url: https://fonsc.github.io/helm-charts/docs/app-template/#from-2xx-to-30x
         - name: Common library chart definition
-          url: https://github.com/bjw-s/helm-charts/blob/main/charts/library/common/Chart.yaml
+          url: https://github.com/fonsc/helm-charts/blob/main/charts/library/common/Chart.yaml

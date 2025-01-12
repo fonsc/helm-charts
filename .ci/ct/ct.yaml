@@ -12,4 +12,4 @@ chart-dirs:
   - charts/other
 
 chart-repos:
-  - bjw-s=https://bjw-s.github.io/helm-charts
+  - fonsc=https://fonsc.github.io/helm-charts

@@ -12,16 +12,16 @@ Kubernetes: `>=1.22.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://bjw-s.github.io/helm-charts | common | 3.6.1 |
+| https://fonsc.github.io/helm-charts | common | 3.6.1 |
 
 ## Installing the Chart
 
 ```bash
 # Add the repository
-helm repo add bjw-s https://bjw-s.github.io/helm-charts/
+helm repo add fonsc https://fonsc.github.io/helm-charts/
 
 # Install the chart
-helm install bjw-s app-template -f values.yaml
+helm install fonsc app-template -f values.yaml
 ```
 
 ## Configuration
@@ -31,12 +31,12 @@ The [CI tests](../../library/common-test/ci) contain a number of scenarios that 
 
 ## Upgrade instructions
 
-Upgrade instructions can be found in the [documentation](https://bjw-s.github.io/helm-charts/docs/app-template/#upgrade-instructions).
+Upgrade instructions can be found in the [documentation](https://fonsc.github.io/helm-charts/docs/app-template/#upgrade-instructions).
 
 ## Support
 
-- See the [Docs](http://bjw-s.github.io/helm-charts/docs/)
-- Open an [issue](https://github.com/bjw-s/helm-charts/issues/new/choose)
+- See the [Docs](http://fonsc.github.io/helm-charts/docs/)
+- Open an [issue](https://github.com/fonsc/helm-charts/issues/new/choose)
 - Join the k8s-at-home [Discord](https://discord.gg/k8s-at-home) community
 
 ----------------------------------------------

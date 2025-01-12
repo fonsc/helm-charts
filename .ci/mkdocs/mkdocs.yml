@@ -1,12 +1,14 @@
 ---
 # Project information
-site_name: bjw-s Helm Charts
-site_url: https://bjw-s.github.io/helm-charts/
-site_author: bjw-s
+site_name: Fonsc Helm Charts
+site_url: https://fonsc.github.io/helm-charts/
+site_author: fonsc
+site_description: A fork from bjw-s/helm-charts
+
 
 # Repository
-repo_name: bjw-s/helm-charts
-repo_url: https://github.com/bjw-s/helm-charts
+repo_name: fonsc/helm-charts
+repo_url: https://github.com/fonsc/helm-charts
 
 # Configuration
 docs_dir: ../../docs
