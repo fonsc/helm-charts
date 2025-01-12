@@ -46,7 +46,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4.0.0
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref | match('refs/heads/(main|custom)') }}
         with:
           github_token: ${{ steps.app-token.outputs.token }}
           publish_dir: ./site
