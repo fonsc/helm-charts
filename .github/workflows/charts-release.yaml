@@ -82,12 +82,12 @@ jobs:
       charts: "${{ needs.prepare.outputs.applicationChartsToRelease }}"
     secrets: inherit
 
-  release-github-oci:
-    name: Release Application charts to GitHub Container Registry
-    uses: ./.github/workflows/charts-release-oci.yaml
-    needs:
-      - prepare
-      - release-library-charts
-    with:
-      charts: "${{ needs.prepare.outputs.applicationChartsToRelease }}"
-    secrets: inherit
+  # release-github-oci:
+  #   name: Release Application charts to GitHub Container Registry
+  #   uses: ./.github/workflows/charts-release-oci.yaml
+  #   needs:
+  #     - prepare
+  #     - release-library-charts
+  #   with:
+  #     charts: "${{ needs.prepare.outputs.applicationChartsToRelease }}"
+  #   secrets: inherit
